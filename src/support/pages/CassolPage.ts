@@ -75,21 +75,18 @@ export default class CassolPage {
   async validarMensagemErroCPF(): Promise<void> {
     const el = this.elements;
     await this.elements.erroCPF.waitFor({ timeout: 5000 });
-    // const mensagem = await this.elements.erroCPF.textContent();
     expect(el.erroCPF).toBeVisible();
   }
 
   async validarMensagemErroTelefone(): Promise<void> {
     const el = this.elements;
     await this.elements.erroTelefone.waitFor({ timeout: 5000 });
-    // const mensagem = await this.elements.erroTelefone.textContent();
     expect(el.erroTelefone).toBeVisible();
   }
 
   async validarMensagemErroEmail(): Promise<void> {
     const el = this.elements;
     await this.elements.erroEmail.waitFor({ timeout: 5000 });
-    // const mensagem = await this.elements.erroEmail.textContent();
     expect(el.erroEmail).toBeVisible();
   }
 
