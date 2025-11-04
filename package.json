@@ -6,16 +6,16 @@
   "author": "ugioni",
   "license": "ISC",
   "devDependencies": {
+    "@playwright/test": "^1.56.1",
     "@types/node": "^24.9.1",
     "@zerostep/playwright": "^0.1.5",
     "mkdirp": "^3.0.1",
     "prettier": "^3.6.2",
-    "rimraf": "^6.0.1",
+    "rimraf": "^6.1.0",
     "typescript": "^5.9.3"
   },
   "dependencies": {
     "@faker-js/faker": "^9.9.0",
-    "@playwright/test": "1.56.1",
     "playwright": "1.56.1",
     "sicolo": "^1.0.1"
   },
@@ -23,7 +23,7 @@
     "clean": "rimraf ./artifacts && mkdirp ./artifacts",
     "format": "prettier --write \"**/**.[jt]s?(x)\"",
     "verify": "prettier --check \"**/**.[jt]s?(x)\"",
-    "scenario": "npx playwright test src/scenarios/ContatoEmpresa.spec.ts --output artifacts/media --workers 1",
+    "scenario": "npx playwright test src/scenarios/Cassol.spec.ts --output artifacts/media --workers 1",
     "test": "npx playwright test --output artifacts/media --workers 4",
     "debug": "npx playwright test --output artifacts/media --debug --workers 1",
     "ui": "npx playwright test --output artifacts/media --ui --workers 1",

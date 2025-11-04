@@ -1,0 +1,386 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - alert
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "Pular para o conteúdo" [ref=e4] [cursor=pointer]:
+        - /url: "#contentarea"
+      - generic [ref=e5]:
+        - generic [ref=e9]:
+          - generic [ref=e11]:
+            - link "Nossa lojas" [ref=e12] [cursor=pointer]:
+              - /url: /nossas-lojas
+              - generic [ref=e13]: Nossa lojas
+            - link "Catálogo de ofertas" [ref=e14] [cursor=pointer]:
+              - /url: /catalogo-de-ofertas
+              - generic [ref=e15]: Catálogo de ofertas
+          - paragraph [ref=e26]:
+            - link "Use o cupom BEMVINDO e ganhe 5% OFF na primeira compra. *Ver condições" [ref=e27] [cursor=pointer]:
+              - /url: https://www.cassol.com.br/politica-de-cupons-descontos
+          - generic [ref=e29]:
+            - link "Baixe o App Cartão Cassol" [ref=e30] [cursor=pointer]:
+              - /url: https://qrco.de/besWym
+              - generic [ref=e31]: Baixe o App Cartão Cassol
+            - link "Cartão Cassol" [ref=e32] [cursor=pointer]:
+              - /url: /cartao-cassol
+              - generic [ref=e33]: Cartão Cassol
+        - generic [ref=e35]:
+          - navigation "Menu principal":
+            - button "Abrir menu"
+            - dialog [ref=e36]
+          - link "store logo" [ref=e38] [cursor=pointer]:
+            - /url: https://www.cassol.com.br/
+            - img "Cassol Centerlar - Logotipo" [ref=e39]
+          - generic [ref=e42] [cursor=pointer]:
+            - img [ref=e43]
+            - generic [ref=e46]: Selecione seu endereço
+          - search [ref=e50]:
+            - generic [ref=e51]:
+              - textbox "Pesquisa" [ref=e52]
+              - button "Search" [ref=e53] [cursor=pointer]:
+                - img [ref=e54]
+          - generic [ref=e56]:
+            - link "whatsapp cta" [ref=e58] [cursor=pointer]:
+              - /url: https://api.whatsapp.com/send?phone=554840011515&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20o%20Especialista.
+              - img [ref=e59]
+              - generic [ref=e62]:
+                - generic [ref=e63]: (48) 4001-1515
+                - generic [ref=e64]: Compre pelo Whatsapp
+            - generic:
+              - navigation "Menu principal":
+                - button "Abrir menu"
+                - dialog [ref=e65]
+            - button "Minha conta" [ref=e67] [cursor=pointer]:
+              - img [ref=e68]
+            - link "Carrinho" [ref=e71] [cursor=pointer]:
+              - /url: https://www.cassol.com.br/checkout/cart/index/
+              - generic [ref=e72]: Carrinho
+              - img [ref=e73]
+        - generic:
+          - dialog "Meu Carrinho (%0)"
+      - generic [ref=e77]:
+        - button "Departamentos" [ref=e78] [cursor=pointer]:
+          - img [ref=e79]
+          - generic [ref=e84]: Departamentos
+        - navigation "Menu principal" [ref=e86]:
+          - list [ref=e87]:
+            - listitem [ref=e88]:
+              - link "Pisos & Revestimentos" [ref=e90] [cursor=pointer]:
+                - /url: https://www.cassol.com.br/pisos-e-revestimentos
+              - button "Toggle submenu for Pisos & Revestimentos" [ref=e91] [cursor=pointer]:
+                - generic [ref=e92]: Toggle submenu for Pisos & Revestimentos
+            - listitem [ref=e93]:
+              - link "Construção" [ref=e95] [cursor=pointer]:
+                - /url: https://www.cassol.com.br/materiais-de-construcao
+              - button "Toggle submenu for Construção" [ref=e96] [cursor=pointer]:
+                - generic [ref=e97]: Toggle submenu for Construção
+            - listitem [ref=e98]:
+              - link "Tintas" [ref=e100] [cursor=pointer]:
+                - /url: https://www.cassol.com.br/tintas-e-acessorios
+              - button "Toggle submenu for Tintas" [ref=e101] [cursor=pointer]:
+                - generic [ref=e102]: Toggle submenu for Tintas
+            - listitem [ref=e103]:
+              - link "Banheiros" [ref=e105] [cursor=pointer]:
+                - /url: https://www.cassol.com.br/banheiros
+              - button "Toggle submenu for Banheiros" [ref=e106] [cursor=pointer]:
+                - generic [ref=e107]: Toggle submenu for Banheiros
+            - listitem [ref=e108]:
+              - link "Cozinha & Lavanderia" [ref=e110] [cursor=pointer]:
+                - /url: https://www.cassol.com.br/cozinha-e-lavanderia
+              - button "Toggle submenu for Cozinha & Lavanderia" [ref=e111] [cursor=pointer]:
+                - generic [ref=e112]: Toggle submenu for Cozinha & Lavanderia
+            - listitem [ref=e113]:
+              - link "Eletro" [ref=e115] [cursor=pointer]:
+                - /url: https://www.cassol.com.br/eletro
+              - button "Toggle submenu for Eletro" [ref=e116] [cursor=pointer]:
+                - generic [ref=e117]: Toggle submenu for Eletro
+            - listitem [ref=e118]:
+              - link "Ar Condicionado" [ref=e120] [cursor=pointer]:
+                - /url: https://www.cassol.com.br/climatizacao-e-ventilacao
+              - button "Toggle submenu for Ar Condicionado" [ref=e121] [cursor=pointer]:
+                - generic [ref=e122]: Toggle submenu for Ar Condicionado
+            - listitem [ref=e123]:
+              - link "Ferramentas" [ref=e125] [cursor=pointer]:
+                - /url: https://www.cassol.com.br/ferramentas
+              - button "Toggle submenu for Ferramentas" [ref=e126] [cursor=pointer]:
+                - generic [ref=e127]: Toggle submenu for Ferramentas
+            - listitem [ref=e128]:
+              - button "Toggle submenu for Menu Right" [ref=e129] [cursor=pointer]:
+                - generic [ref=e130]: Toggle submenu for Menu Right
+              - list "Submenu for Menu Right" [ref=e133]:
+                - listitem [ref=e134]:
+                  - link "Marcas exclusivas" [ref=e136] [cursor=pointer]:
+                    - /url: /marcas-exclusivas
+                    - generic [ref=e137]: Marcas exclusivas
+    - navigation "Breadcrumb" [ref=e139]:
+      - list [ref=e141]:
+        - listitem [ref=e142]:
+          - link "Back Page" [ref=e143] [cursor=pointer]:
+            - /url: https://www.cassol.com.br/
+            - img [ref=e144]
+            - text: Home
+        - listitem [ref=e146]:
+          - generic [ref=e147]: /
+          - text: Fale Conosco
+    - main [ref=e148]:
+      - generic [ref=e150]:
+        - figure [ref=e152]
+        - generic [ref=e154]:
+          - paragraph [ref=e155] [cursor=pointer]:
+            - strong [ref=e156]: Institucional
+          - paragraph [ref=e157] [cursor=pointer]:
+            - strong [ref=e158]: Políticas do Site
+          - paragraph [ref=e159] [cursor=pointer]:
+            - strong [ref=e160]: Atendimento
+          - paragraph [ref=e161] [cursor=pointer]:
+            - strong [ref=e162]: Serviços
+        - generic [ref=e165]:
+          - generic [ref=e167]:
+            - paragraph
+            - generic [ref=e169]:
+              - group "Fale Conosco" [ref=e170]:
+                - generic [ref=e171]: Fale Conosco
+                - generic [ref=e172]:
+                  - generic [ref=e173]: "Assunto: *"
+                  - 'textbox "Assunto: *" [ref=e176]':
+                    - /placeholder: ""
+                    - text: Dúvidas sobre entrega
+                - generic [ref=e177]:
+                  - generic [ref=e178]: "Tipo de pessoa: *"
+                  - 'textbox "Tipo de pessoa: *" [ref=e181]':
+                    - /placeholder: ""
+                    - text: Pessoa Física
+                - generic [ref=e182]:
+                  - generic [ref=e183]: "Nome: *"
+                  - 'textbox "Nome: *" [ref=e186]':
+                    - /placeholder: ""
+                    - text: Paulo
+                - generic [ref=e187]:
+                  - generic [ref=e188]: "Sobrenome: *"
+                  - 'textbox "Sobrenome: *" [ref=e191]':
+                    - /placeholder: ""
+                    - text: da Silva
+                - generic [ref=e192]:
+                  - generic [ref=e193]: "CPF: *"
+                  - 'textbox "CPF: *" [ref=e196]':
+                    - /placeholder: ""
+                    - text: 123.456.789-00
+                - generic [ref=e197]:
+                  - generic [ref=e198]: "Email: *"
+                  - 'textbox "Email: *" [ref=e201]':
+                    - /placeholder: ""
+                    - text: paulo@teste.com
+                - generic [ref=e202]:
+                  - generic [ref=e203]: "Número do pedido: *"
+                  - 'textbox "Número do pedido: *" [ref=e206]':
+                    - /placeholder: ""
+                    - text: "99999999"
+                - generic [ref=e207]:
+                  - generic [ref=e208]: "Telefone: *"
+                  - generic [ref=e210]:
+                    - 'textbox "Telefone: *" [active] [ref=e211]':
+                      - /placeholder: ""
+                    - list [ref=e212]:
+                      - listitem [ref=e213]: Este é um campo obrigatório.
+                - generic [ref=e214]:
+                  - generic [ref=e215]: "Mensagem:"
+                  - textbox "Mensagem:" [ref=e217]: Realizando testes
+              - button "Enviar" [ref=e220] [cursor=pointer]:
+                - generic [ref=e221]: Enviar
+          - generic [ref=e223]:
+            - paragraph [ref=e224]:
+              - strong [ref=e225]:
+                - generic [ref=e227]: "Central de atendimento:"
+              - text: "Telefone: 4007-2022"
+            - paragraph [ref=e228]:
+              - strong [ref=e229]: "Horário de atendimento:"
+              - text: Atendimento de segunda à sexta - 8h às 17h
+            - paragraph [ref=e230]:
+              - strong [ref=e231]: "E-mail:"
+              - text: "Entre em contato conosco através do e-mail:"
+              - link "atendimento.sac@cassol.com.br" [ref=e233] [cursor=pointer]:
+                - /url: mailto:atendimento.sac@cassol.com.br
+    - contentinfo [ref=e234]:
+      - generic [ref=e235]:
+        - generic [ref=e241]:
+          - generic [ref=e242]: Enviamos e-mails com seleções boas de verdade!
+          - group [ref=e243]:
+            - textbox "Nome:" [ref=e245]:
+              - /placeholder: Nome
+            - textbox "E-mail:" [ref=e247]:
+              - /placeholder: E-mail
+          - button "Receber Novidades" [ref=e249] [cursor=pointer]
+        - generic [ref=e250]:
+          - generic [ref=e253]:
+            - paragraph [ref=e255]:
+              - img "Logo Cassol" [ref=e256]
+            - generic [ref=e257]:
+              - paragraph [ref=e258]:
+                - strong [ref=e259]: Siga a Cassol
+              - list [ref=e260]:
+                - listitem [ref=e261]:
+                  - link "Facebook" [ref=e262] [cursor=pointer]:
+                    - /url: https://pt-br.facebook.com/CassolCenterlar
+                    - img "Facebook" [ref=e263]
+                - listitem [ref=e264]:
+                  - link "Youtube" [ref=e265] [cursor=pointer]:
+                    - /url: https://www.youtube.com/user/CassolCenterlar
+                    - img "Youtube" [ref=e266]
+                - listitem [ref=e267]:
+                  - link "Instagram" [ref=e268] [cursor=pointer]:
+                    - /url: https://www.instagram.com/cassolcenterlar/
+                    - img "Instagram" [ref=e269]
+                - listitem [ref=e270]:
+                  - link "Pinterest" [ref=e271] [cursor=pointer]:
+                    - /url: https://br.pinterest.com/cassolcenterlar/
+                    - img "Pinterest" [ref=e272]
+          - generic [ref=e274]:
+            - generic [ref=e275]:
+              - paragraph [ref=e277]: Institucional
+              - list [ref=e279]:
+                - listitem [ref=e280]:
+                  - link "Quem Somos" [ref=e282] [cursor=pointer]:
+                    - /url: /quem-somos
+                - listitem [ref=e283]:
+                  - link "Nossas Lojas" [ref=e284] [cursor=pointer]:
+                    - /url: /nossas-lojas
+                - listitem [ref=e285]:
+                  - link "Manifesto da Marca" [ref=e286] [cursor=pointer]:
+                    - /url: /manifesto-da-marca
+                - listitem [ref=e287]:
+                  - link "Trabalhe Conosco" [ref=e288] [cursor=pointer]:
+                    - /url: /trabalhe-conosco
+                - listitem [ref=e289]:
+                  - link "Canais de Vendas" [ref=e290] [cursor=pointer]:
+                    - /url: https://www.cassol.com.br/canais-de-vendas
+                - listitem [ref=e291]:
+                  - link "Seja um Fornecedor" [ref=e292] [cursor=pointer]:
+                    - /url: https://www.cassol.com.br/seja-um-fornecedor
+                - listitem [ref=e293]:
+                  - link "Portal da Transparência" [ref=e294] [cursor=pointer]:
+                    - /url: https://www.cassol.com.br/portal-da-transparencia
+                - listitem [ref=e295]:
+                  - link "Canal de Denúncias" [ref=e296] [cursor=pointer]:
+                    - /url: https://www.canaldedenuncias.com.br/cassol
+                - listitem [ref=e297]:
+                  - link "Blog" [ref=e298] [cursor=pointer]:
+                    - /url: https://blog.cassol.com.br/
+            - generic [ref=e299]:
+              - paragraph [ref=e301]: Políticas do Site
+              - list [ref=e303]:
+                - listitem [ref=e304]:
+                  - link "Política de Entrega" [ref=e305] [cursor=pointer]:
+                    - /url: /politica-de-entrega
+                - listitem [ref=e306]:
+                  - link "Política de Frete Grátis" [ref=e307] [cursor=pointer]:
+                    - /url: /politica-de-frete-gratis
+                - listitem [ref=e308]:
+                  - link "Política de Pagamento" [ref=e309] [cursor=pointer]:
+                    - /url: /politica-de-pagamento
+                - listitem [ref=e310]:
+                  - link "Política de Privacidade" [ref=e311] [cursor=pointer]:
+                    - /url: /politica-de-privacidade
+                - listitem [ref=e312]:
+                  - link "Política de Trocas e Devoluções" [ref=e313] [cursor=pointer]:
+                    - /url: /politica-de-trocas-devolucoes
+                - listitem [ref=e314]:
+                  - link "Política de Cupons e Descontos" [ref=e315] [cursor=pointer]:
+                    - /url: /politica-de-cupons-descontos
+                - listitem [ref=e316]:
+                  - link "Política do Preço Regionalizado" [ref=e317] [cursor=pointer]:
+                    - /url: /politica-de-preco-regionalizado
+                - listitem [ref=e318]:
+                  - link "Política de Menor Preço" [ref=e319] [cursor=pointer]:
+                    - /url: /politica-de-menor-preco
+            - generic [ref=e320]:
+              - paragraph [ref=e322]: Atendimento
+              - list [ref=e324]:
+                - listitem [ref=e325]:
+                  - link "Dúvidas Frequentes" [ref=e326] [cursor=pointer]:
+                    - /url: /faq
+                - listitem [ref=e327]:
+                  - link "Fale Conosco" [ref=e328] [cursor=pointer]:
+                    - /url: https://www.cassol.com.br/fale-conosco
+            - generic [ref=e329]:
+              - paragraph [ref=e331]: Meus Dados
+              - list [ref=e333]:
+                - listitem [ref=e334]:
+                  - link "Minha conta" [ref=e336] [cursor=pointer]:
+                    - /url: /customer/account/
+                - listitem [ref=e337]:
+                  - link "Meus Pedidos" [ref=e339] [cursor=pointer]:
+                    - /url: /sales/order/history/
+            - generic [ref=e340]:
+              - paragraph [ref=e342]: Serviços
+              - list [ref=e344]:
+                - listitem [ref=e345]:
+                  - link "Orçamentos" [ref=e346] [cursor=pointer]:
+                    - /url: https://www.cassol.com.br/orcamentos
+                - listitem [ref=e347]:
+                  - link "Calculadora de BTUs" [ref=e349] [cursor=pointer]:
+                    - /url: /calculadora-de-btus
+                - listitem [ref=e350]:
+                  - link "Cartão Cassol" [ref=e351] [cursor=pointer]:
+                    - /url: /cartao-cassol
+                - listitem [ref=e352]:
+                  - link "Catálogo de Ofertas" [ref=e353] [cursor=pointer]:
+                    - /url: /catalogo-de-ofertas
+                - listitem [ref=e354]:
+                  - link "Marcas Exclusivas" [ref=e355] [cursor=pointer]:
+                    - /url: /marcas-exclusivas
+                - listitem [ref=e356]:
+                  - link "Assistência Residencial" [ref=e357] [cursor=pointer]:
+                    - /url: https://www.cassol.com.br/assistencia-residencial
+                - listitem [ref=e358]:
+                  - link "Garantia Estendida" [ref=e359] [cursor=pointer]:
+                    - /url: https://www.cassol.com.br/garantia-estendida
+                - listitem [ref=e360]:
+                  - link "Fábrica de Tintas" [ref=e361] [cursor=pointer]:
+                    - /url: https://www.cassol.com.br/fabrica-de-tintas
+          - generic [ref=e363]:
+            - figure [ref=e365]
+            - generic [ref=e366]:
+              - paragraph [ref=e368]: Formas de pagamento
+              - list [ref=e370]:
+                - listitem [ref=e371]:
+                  - img "Mastercard" [ref=e372]
+                - listitem [ref=e373]:
+                  - img "Visa" [ref=e374]
+                - listitem [ref=e375]:
+                  - img "Cartão Cassol" [ref=e376]
+                - listitem [ref=e377]:
+                  - img "Elo" [ref=e378]
+                - listitem [ref=e379]:
+                  - img "Hipercard" [ref=e380]
+                - listitem [ref=e381]:
+                  - img "Dinersclub" [ref=e382]
+                - listitem [ref=e383]:
+                  - img "Amex" [ref=e384]
+                - listitem [ref=e385]:
+                  - img "Pix" [ref=e386]
+        - generic [ref=e389]:
+          - paragraph [ref=e390]:
+            - superscript [ref=e392]: "*Todos os setores, exceto ferro e cimento, em até 6x sem juros no Cartão Cassol, com parcela mínima de R$ 50,00. Nos cartões de crédito Visa, Mastercard, Hipercard, American Express e Elo, parcelamento em até 10x sem juros com parcela mínima de R$ 50,00. **De 7x a 30x parcelado no Cartão Cassol, juros de 2,99% a.m. sem parcela mínima. As parcelas 11x, 12x e 13x com juros de 2,99% a.m. sem parcela mínima, o Cliente Cartão Cassol tem o Pula Fácil, com até 100 DIAS PARA COMEÇAR A PAGAR, de acordo com as datas de vencimento disponíveis no Cartão Cassol. ***De 2x a 10x parcelado no Cartão Cassol sem parcela mínima, juros de 1,99% a.m. Frete grátis: verifique a disponibilidade na sua região consultando o seu CEP na aba 'Frete e Prazo de entrega' na página do produto. As imagens dos produtos são meramente ilustrativas. As promoções “compre e ganhe” não são cumulativas. Quantidade máxima de 10 itens por cliente, pedidos acima dessa quantidade serão analisados e poderão ser cancelados. Condições válidas enquanto durarem os estoques. A Cassol se resguarda e tem o direito de interromper a promoção sem aviso prévio."
+          - paragraph [ref=e393]:
+            - strong [ref=e394]: "© Copyright 2025 Cassol Materiais de Construções LTDA - Todos direitos reservados. Rua Valdemar Avelino Mafra, 969, Kobrasol CEP: 88102-370 - São José - SC CNPJ: 75.400.218/0027-71."
+        - link "Desenvolvido pela" [ref=e397] [cursor=pointer]:
+          - /url: https://caravel.com.br
+          - generic [ref=e398]: Desenvolvido pela
+          - img [ref=e399]
+    - dialog "Cookies Modal" [ref=e408]:
+      - generic [ref=e411]:
+        - paragraph [ref=e413]:
+          - text: Clicando em "Aceito todos os Cookies", você concorda com o armazenamento de
+          - link "cookies" [ref=e414] [cursor=pointer]:
+            - /url: /politica-de-privacidade
+          - text: no seu dispositivo para melhorar a experiência e navegação no site.
+        - generic [ref=e415]:
+          - button "Preferências" [ref=e416] [cursor=pointer]
+          - button "Entendi e fechar" [ref=e417] [cursor=pointer]
+    - link "Whats App Message 1" [ref=e418] [cursor=pointer]:
+      - /url: https://api.whatsapp.com/send?phone=554840011515&text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20o%20Especialista.
+      - img "Whats App Message" [ref=e419]
+      - text: "1"
+```
