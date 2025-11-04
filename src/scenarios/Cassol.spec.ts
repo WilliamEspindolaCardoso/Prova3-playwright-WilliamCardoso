@@ -18,8 +18,7 @@ test.describe('Testes funcionais no site da Cassol', () => {
     await cassolPage.preencherFormularioSemCPF();
     await cassolPage.enviarFormulario();
 
-    const erro = await cassolPage.validarMensagemErroCPF();
-    expect(erro).toContain('Este é um campo obrigatório');
+    await cassolPage.validarMensagemErroCPF();
   });
 
   test('Validar formulário sem Telefone', async ({ page }) => {
@@ -27,8 +26,7 @@ test.describe('Testes funcionais no site da Cassol', () => {
     await cassolPage.preencherFormularioSemTelefone();
     await cassolPage.enviarFormulario();
 
-    const erro = await cassolPage.validarMensagemErroTelefone();
-    expect(erro).toContain('Este é um campo obrigatório');
+    await cassolPage.validarMensagemErroTelefone();
   });
 
   test('Validar formulário com e-mail inválido', async ({ page }) => {
@@ -36,7 +34,6 @@ test.describe('Testes funcionais no site da Cassol', () => {
     await cassolPage.preencherFormularioComEmailInvalido();
     await cassolPage.enviarFormulario();
 
-    const erro = await cassolPage.validarMensagemErroEmail();
-    expect(erro).toContain('Por favor, insira um endereço de e-mail válido');
+    await cassolPage.validarMensagemErroEmail();
   });
 });

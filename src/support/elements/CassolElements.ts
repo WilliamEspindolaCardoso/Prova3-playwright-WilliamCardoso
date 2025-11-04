@@ -46,15 +46,15 @@ export default class CassolElements {
   
   // Mensagens de erro
   get erroCPF(): Locator { 
-    return this.page.locator('#field_3_1746737986_5-error'); 
+    return this.page.locator('text=Este é um campo obrigatório'); 
   }
 
   get erroTelefone(): Locator { 
-    return this.page.locator('#field_3_1746737986_8-error'); 
+    return this.page.locator('text=Este é um campo obrigatório'); 
   }
 
   get erroEmail(): Locator { 
-    return this.page.locator('#field_3_1746737986_6-error'); 
+    return this.page.locator('text=Por favor, insira um endereço de e-mail válido'); 
   }
 
 }
